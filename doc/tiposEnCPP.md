@@ -96,7 +96,7 @@ Escriban el programa anterior y construyan el ejecutable correspondiente. Compru
 
 Es importante mencionar que cuando utilizamos el tipo char, la manera de asignar una valor a una variable de este tipo es con las comillas simples (En el teclado figura con el signo de cierre de interrogación). En cambio, cuando se asigna una cadena de texto a una variable de tipo **string** se utiliza comillas dobles.
 
-Para poner en pr\'actica lo aprendido les dejo la actividad 3, muy sencilla por cierto[^3].
+Para poner en práctica lo aprendido les dejo la actividad 3, muy sencilla por cierto[^3].
 [^2]: Es importante aclarar que esta sentencia de **C++** tiene forma de función es un **operador**
 [^3]: En la próxima entrega veremos el tipo **float**, el tipo **double** y el tipo **bool**. Cabe aclarar que no lo vemos en profundidad, solo la forma de trabajar con estos datos, al menos en esta primera etapa. Es importante que los _programitas_ les _salga_ y puedan ejecutar correctamente.
 
