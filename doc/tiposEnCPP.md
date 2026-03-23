@@ -11,7 +11,7 @@ En **C++** existen una serie de tipos llamados **tipos fundamentales** y que vie
  - **float:** Permite almacenar un número racional pero de simple precisión.
  - **double:** Igual que el anterior pero es de doble precisión.
  - **bool:** o booleano. Es un tipo lógico. Puede almacenar unicamente dos valores, un 1 o un 0  o false.
- - ** void:** indica ausencia de tipo.
+ - **void:** indica ausencia de tipo.
 
 El tipo **char** es un **tipo de dato** que permite almacenar en memoria un caracter. Dado que un tipo necesita una porción de memoria es necesario conocer el tamaño de la memoria para almacenar ese valor. Pues bien, el tipo **char** ocupa **1 byte** de memoria. Dado que internamente se almacenan como números binarios es el compilador el que realiza la interpretación.
 
@@ -40,8 +40,8 @@ int main() {
 _______
 
 ## Variable ##
-Una variable es un porción de la memoria cuyo contenido cambia durante la ejecución de un programa. Una variable debe tener un **identificador** [^1] o nombre (con el cual se va a referenciar al contenido del mismo) y un **tipo**. Así el compilador sabe la cantidad de memoria necesita. Además tiene una dirección donde comienza la memoria asignada.
-[^1] Los identificadores deben respetar ciertas reglas para que sean validados por el compilador, de lo contrario producirá un error al compilar.
+Una variable es un porción de la memoria cuyo contenido cambia durante la ejecución de un programa. Una variable debe tener un **identificador**[^1] o nombre (con el cual se va a referenciar al contenido del mismo) y un **tipo**. Así el compilador sabe la cantidad de memoria necesita. Además tiene una dirección donde comienza la memoria asignada.
+[^1]: Los identificadores deben respetar ciertas reglas para que sean validados por el compilador, de lo contrario producirá un error al compilar.
 
 En la linea 6 la sentencia
 
@@ -96,8 +96,8 @@ Escriban el programa anterior y construyan el ejecutable correspondiente. Compru
 
 Es importante mencionar que cuando utilizamos el tipo char, la manera de asignar una valor a una variable de este tipo es con las comillas simples (En el teclado figura con el signo de cierre de interrogación). En cambio, cuando se asigna una cadena de texto a una variable de tipo **string** se utiliza comillas dobles.
 
-Para poner en pr\'actica lo aprendido les dejo la actividad 3, muy sencilla por cierto.[^2]
-[^2]{En la próxima entrega veremos el tipo **float**, el tipo **double** y el tipo **bool**. Cabe aclarar que no lo vemos en profundidad, solo la forma de trabajar con estos datos, al menos en esta primera etapa. Es importante que los _programitas_ les _salga_ y puedan ejecutar correctamente.}
+Para poner en pr\'actica lo aprendido les dejo la actividad 3, muy sencilla por cierto[^2].
+[^2]: En la próxima entrega veremos el tipo **float**, el tipo **double** y el tipo **bool**. Cabe aclarar que no lo vemos en profundidad, solo la forma de trabajar con estos datos, al menos en esta primera etapa. Es importante que los _programitas_ les _salga_ y puedan ejecutar correctamente.
 
 
 
