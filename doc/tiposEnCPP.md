@@ -2,7 +2,7 @@
 En un ordenador de propósito general se pueden guardar datos de cualquier tipo. Pero, ¿a qué nos referimos cuando decimos datos? No nos vamos a complicarnos muchos con la definición, más bien vamos a mencionar algunos ejemplos. Un dato es por ejemplo la **fecha de tu nacimiento**, la **talla** que tienes al comenzar el año (o al rellenar la ficha médica para la inscripción al Bachi), el **gusto musical** (un ritmo en particular), la **frecuencia cardíaca** al realizar el eléctrocardiograma, la **temperatura corporal** al poner el termómetro cerca de nuestro cuerpo al ingresar al Bachi, el **peso** o **masa** que tenemos y observamos en la balanza y que generalmente nos desconicerta :-), el **signo de zodíaco**, el **deporte favorito**, etc. Como se puede observar, hay datos de distintas naturaleza. Hay aquellos que para indicar nos alcanza con un término, otros en cambio se necesitan números enteros, otros números reales y otros, es necesario agregar un número seguido de una unidad de medida. En fin, de esto trata este artículo.
 
 # Tipos de Datos #
-``` Un tipo de datos en una categorización de los datos. Permite clasificarlos teniendo en cuenta sus características. Por ejemplo un tipo de datos entero es un tipo que puede almacenar un número entero. Un tipo de datos string (o cadena) se refiere a una categoria de datos capaz de almancenar una cadena de texto. ```
+Un tipo de datos en una categorización de los datos. Permite clasificarlos teniendo en cuenta sus características. Por ejemplo un tipo de datos entero es un tipo que puede almacenar un número entero. Un tipo de datos string (o cadena) se refiere a una categoria de datos capaz de almancenar una cadena de texto.
 
 En **C++** existen una serie de tipos llamados **tipos fundamentales** y que vienen incorporados al lenguaje. Entre esos tipos de datos fundamentales vamos a mencionar los siguientes:
 
@@ -56,7 +56,7 @@ char b='S';
 ```
 Es una **declaración** con **definición** porque además de darle un **nombre** y un **tipo** también le estamos asignando un **valor**. En este caso el valor es la letra 'S' mayúscula. El signo ''='' es el operador de asignación. 
 
-Para determinar el **tamaño** de un tipo de datos podemos utilizar el **operador sizeof()**[^3] que nos informa cuántos bytes ocupa una variable o una constante. Este operador untiliza argumentos (lo que va entre paréntesis) y, como pueden ver en el ejemplo, se pueden utilizar tanto los nombres de variables como los tipos para determinar su longitud o tamaño de ese tipo.
+Para determinar el **tamaño** de un tipo de datos podemos utilizar el **operador sizeof()**[^2] que nos informa cuántos bytes ocupa una variable o una constante. Este operador untiliza argumentos (lo que va entre paréntesis) y, como pueden ver en el ejemplo, se pueden utilizar tanto los nombres de variables como los tipos para determinar su longitud o tamaño de ese tipo.
 
 Construyan el ejecutable y ejecuten para observar lo que se muestra en pantalla. Es importante que vayan haciendo los ejemplos. Si hay errores corrijan los mismos hasta que el programa funcione.
 
@@ -96,10 +96,10 @@ Escriban el programa anterior y construyan el ejecutable correspondiente. Compru
 
 Es importante mencionar que cuando utilizamos el tipo char, la manera de asignar una valor a una variable de este tipo es con las comillas simples (En el teclado figura con el signo de cierre de interrogación). En cambio, cuando se asigna una cadena de texto a una variable de tipo **string** se utiliza comillas dobles.
 
-Para poner en pr\'actica lo aprendido les dejo la actividad 3, muy sencilla por cierto[^2].
-[^2]: En la próxima entrega veremos el tipo **float**, el tipo **double** y el tipo **bool**. Cabe aclarar que no lo vemos en profundidad, solo la forma de trabajar con estos datos, al menos en esta primera etapa. Es importante que los _programitas_ les _salga_ y puedan ejecutar correctamente.
+Para poner en pr\'actica lo aprendido les dejo la actividad 3, muy sencilla por cierto[^3].
+[^2]: Es importante aclarar que esta sentencia de **C++** tiene forma de función es un **operador**
+[^3]: En la próxima entrega veremos el tipo **float**, el tipo **double** y el tipo **bool**. Cabe aclarar que no lo vemos en profundidad, solo la forma de trabajar con estos datos, al menos en esta primera etapa. Es importante que los _programitas_ les _salga_ y puedan ejecutar correctamente.
 
-[^3]: Es importante aclarar que esta sentencia de **C++** tiene forma de función es un **operador**
 
 
 
