@@ -56,7 +56,7 @@ char b='S';
 ```
 Es una **declaración** con **definición** porque además de darle un **nombre** y un **tipo** también le estamos asignando un **valor**. En este caso el valor es la letra 'S' mayúscula. El signo ''='' es el operador de asignación. 
 
-Para determinar el **tamaño** de un tipo de datos podemos utilizar el **operador sizeof()** que nos informa cuántos bytes ocupa una variable o una constante. Este operador untiliza argumentos (lo que va entre paréntesis) y, como pueden ver en el ejemplo, se pueden utilizar tanto los nombres de variables como los tipos para determinar su longitud o tamaño de ese tipo.
+Para determinar el **tamaño** de un tipo de datos podemos utilizar el **operador sizeof()**[^3] que nos informa cuántos bytes ocupa una variable o una constante. Este operador untiliza argumentos (lo que va entre paréntesis) y, como pueden ver en el ejemplo, se pueden utilizar tanto los nombres de variables como los tipos para determinar su longitud o tamaño de ese tipo.
 
 Construyan el ejecutable y ejecuten para observar lo que se muestra en pantalla. Es importante que vayan haciendo los ejemplos. Si hay errores corrijan los mismos hasta que el programa funcione.
 
@@ -98,6 +98,9 @@ Es importante mencionar que cuando utilizamos el tipo char, la manera de asignar
 
 Para poner en pr\'actica lo aprendido les dejo la actividad 3, muy sencilla por cierto[^2].
 [^2]: En la próxima entrega veremos el tipo **float**, el tipo **double** y el tipo **bool**. Cabe aclarar que no lo vemos en profundidad, solo la forma de trabajar con estos datos, al menos en esta primera etapa. Es importante que los _programitas_ les _salga_ y puedan ejecutar correctamente.
+
+[^3]: Es importante aclarar que esta sentencia de **C++** tiene forma de función es un **operador**
+
 
 
 
