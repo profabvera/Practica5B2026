@@ -66,6 +66,14 @@ Escribe un programa que declare dos variables enteras  _a_ y _b_, y una tercera 
   
   - observa que aquí no hemos puesto la sentencia  **using namespace std**
 
+- #### Instrucciones de compilación desde el terminal
+  
+  ```bash
+  $ g++ -o act2a act2a.cpp
+  ```
+  
+  
+
 
 
 
