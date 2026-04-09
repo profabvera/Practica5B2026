@@ -21,3 +21,26 @@ Escriba un programa en la cual se declaren tres variables de tipo **char** luego
     ```
   
   - El parametro -Wall se utiliza para que el compilador muestre todos los errores y avisos que surjan y no descarte ninguno.
+  
+  ### Un poco de ayuda
+
+Hay diversas forma de realizar la actividad, pero con lo visto hasta ahora es posible hacerlo. Como ayuda voy a poner un ejemplo de una actividad que hace uso de una variable tipo *int* los muestra, cambia el valor y los vuelve a mostrar.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a=5; //Declaración y definición de la variable entera a;
+    cout << "Valor de a: " << a << endl;
+    a=9; // Se sobreescribe el valor 5, cambia por 9
+    cout << "Valor de a: " << a << endl;
+    return 0;
+}
+```
+
+En este ejemplo puedes obeservar como un mismo *identificador*, **a** primero contiene el valor 5, luego se sobreescribe ese valor (se va, desaparece), cambia por el 9.
+
+Podemos pensar en una variable como una caja en el cual podemos cambiar su contenido durante la ejecución de un programa. Solo que hay cajas que son exclusivas para determinados contenidos. Una caja que solo puede almacenar turrones, otra solo alfajores, no podemos almacenar turrones en una de alfajores porque los turrones se deterioran o no caben. Por eso una caja que pueden contener un numero entero es int y uno para contener un caracter es char. Hay otras cuestiones aquí de bajo nivel pero que no conviene tratarlos.
+
+Volviendo a la actividad, debes hacer algo parecido con las tres variables tipo char. Le asignas las inciales de tus nombres y apellido, los muestra (como se pide en la actividad), cambia sus valores por otros y los vuelve a mostrar.
