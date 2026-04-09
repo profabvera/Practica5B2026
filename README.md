@@ -16,9 +16,7 @@ Desde luego contiene errores o porciones de código que puede hacerse de forma m
 
 - Puntos en contra:
   
-  - Datos de alumnos en la nube. Al hacerlo de acceso libre el alumno no está obligado a dejar sus datos, pero igualmente se hace complejo trabajar de forma completamente anónima ya que las plataformas conservan el derecho de admisión razón por la cual, probablemente terminará usando dicha plataforma. Eso no es malo, pero no es legal, salvo concentimietno explícito del tutor.
+  - Datos de alumnos en la nube. Al hacerlo de acceso libre el alumno no está obligado a dejar sus datos, pero igualmente se hace complejo trabajar de forma completamente anónima ya que las plataformas conservan el derecho de admisión razón por la cual, probablemente terminará usando dicha plataforma. Eso no es malo, pero no es legal, salvo concentimiento explícito del tutor.
   - Si no hay concección a Iternet noy hay acceso a la información. Se asume que hoy eso no es un problema, pero puede que algunos aún estén en esas condiciones.
-    
-    
     
             
