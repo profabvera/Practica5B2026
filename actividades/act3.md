@@ -20,7 +20,7 @@ Escriba un programa en la cual se declare tres variables de tipo **char** luego 
 
 Hay diversas forma de realizar la actividad, pero con lo visto hasta ahora es posible hacerlo. Como ayuda voy a poner un ejemplo de una actividad que hace uso de una variable tipo _int_ los muestra, cambia el valor y los vuelve a mostrar.
 
-```bash
+```cpp
 1  #include <iostream>
 2  using namespace std;
 3
