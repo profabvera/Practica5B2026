@@ -2,9 +2,7 @@ Actividad 2
 
 Escriba los programas que figuran como ejemplos _elTipoChar.cpp_ y _elTipoInt.cpp_ del documento tiposEnCPP de la sección doc, compile y compruebe su ejecuión. Es importante que tipee los mismos, así va fijando las instrucciónes. Guárdelo con los mismo nombres en la carpeta CPP de su Netbook.
 
-____
-
-```c++
+```cpp
 // elTipoChar.cpp  (Este es el nombre con el cual deben guardar el archivo
 // fuente. No es parte del programa, figura como comentario.
 #include <iostream>
