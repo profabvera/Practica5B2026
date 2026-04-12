@@ -16,6 +16,8 @@ Escriba un programa en la cual se declaren tres variables de tipo **char** luego
   
   - Observar como se utilizar una variable cambiando el contenido durante la ejecución de un programa.
     
+    **compilamos desde el terminal**
+    
     ```c++
     g++ -Wall -o act2b act2b.cpp
     ```
