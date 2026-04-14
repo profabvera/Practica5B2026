@@ -32,6 +32,8 @@ Y ¿Para qué podemos utilizar un _float_? Pues todos aquellos casos en el cuál
 
 El la línea 15, 16 y 17 del ejemplo, el operador _sizeof()_ devuelve el tamaño en bytes que ocupa un tipo o una variable de un determinado tipo. Como argumento del operador puede figurar el _nombre de la variable_ o bien el _tipo_. Si tenemos una variable _a_ de tipo char, _sizeof(a)_ retorna un $1$, lo mismo sucede si ponemos _sizeof(char)_.
 
+### Operadores
+
 | Símbolos | Operación      | Ejemplo | Resultado      |
 | -------- | -------------- | ------- | -------------- |
 | +        | Adición        | 5+8     | 13             |
@@ -128,30 +130,53 @@ El tipo **bool**  o **booleano** permite almacenar únicamente dos valores disti
 > Escriba un programa que solicita al usuario el ingreso un un número entero. El programa debe determinar si el número ingresado es par o impar y enviar el mensaje: "*El númeor x es par*" o "*El número es impar*" siendo *x* el número ingresado por el usuario.
 
 ```cpp
-//ejemTipoBool.cpp
-#include <iostream>
-using namespace std;
-
-int main(){
-
-   cout << "\t ****************************************" << endl;
-   cout << "\t *    Este programa nos indica si un     *" << endl;
-   cout << "\t *    numero es par o impar.    *" << endl;
-   cout << "\t ****************************************" << endl;
-   int a=1;
-   bool p=false;
-   cout << "Escriba un numero entero: ";
-   cin >> a;
-   if(a%2==0){
-      p=true;
-   }
-   if(p){
-      cout << "\n\tEl numero " << a << " es par " <<endl;
-   } else {
-      cout << "\n\tGuau! El numero " << a << " es impar! " << endl;
-   }
-   return 0;
-}
+1  //ejemTipoBool.cpp
+2  #include <iostream>
+3  using namespace std;
+4
+5  int main(){
+6
+7    cout << "\t ****************************************" << endl;
+8    cout << "\t *    Este programa nos indica si un     *" << endl;
+9    cout << "\t *    numero es par o impar.    *" << endl;
+10   cout << "\t ****************************************" << endl;
+11   int a=1;
+12   bool p=false;
+13   cout << "Escriba un numero entero: ";
+14   cin >> a;
+15   if(a%2==0){
+16      p=true;
+17   }
+18   if(p){
+19      cout << "\n\tEl numero " << a << " es par " <<endl;
+20   } else {
+21      cout << "\n\tGuau! El numero " << a << " es impar! " << endl;
+22   }
+23   return 0;
+21 }
 ```
 
 En este caso si *p* vale 1 _p_ es verdadero, si _p_ vale 0  _p_ resulta _falso_. Ten en cuenta que **a%2==0**  es **1**  o **true** cuando **a**  es par y **0** o **false** cuando **a** es impar.
+
+### Que hay de nuevo aquí
+
+En la linea 14 **cin >> a** lo que hace es leer un valor del teclado y ponerlo en la variable de a. Es la abreviatura de **console input** y el doble signo **mayor que** es el operado de inserción en el flujo de entrdada. De ahora en más siempre que pidamos al usuario que ingrese un valor, para tratar ese valor debemos colocarlo en alguna variable para poder utilizarlos en nuestro código fuente.
+
+Además aparece una estructura que no hemos visto hasta ahora. La instrucción *if(p)* singnifica **si** lo que está estre paréntesis es un valor lógico verdadero, se ejecuta las sentencia siguiente o bien el bloque determiando por las llave, si no es verdadero pueden ocurrir dos cosas, si hay un bloque *else* se ejecuta, sino se pasa a la línea siguiete al final del bloque if.
+
+```cpp
+if(p) {
+    // este bloque se ejecuta si p es verdadeo
+} else {
+    // y este en caso que p sea falso o intepretado como falso.
+}
+```
+
+Cabe aclarar que el bloque if puede prescindir de el bloque *else*, así:
+
+```cpp
+if(p) {
+    // se ejecuta si p es verdadero    
+}
+// la ejecución sigue por aquí si p es falso
+```
