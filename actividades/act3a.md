@@ -40,11 +40,13 @@ $ g++ -Wall -o act3a act3a.cpp
 
 El parámetro **-Wall** le dice al compilador muéstrame todos los avisos y errores que tenga. El parámetro **-o** indica que lo que sigue a ese parámetro será el nombre del archivo ejecutable. Por último, hemos puesto el nombre del archivo fuente.
 
-#### Inicialización de C++ moderno
-
-Si vamos a inicializar una variable de tipo **string** como por ejemplo la variable **nombre** **C++ moderno** sugiere utilizar esta forma
-
-```cpp
-std::string nombre{"Firulais"};  // En lugar de
-std::string nombre = "Firulais"; // esta
-```
+- Tips
+  
+  - #### Inicialización de C++ moderno
+    
+    Si vamos a inicializar una variable de tipo **string** como por ejemplo la variable **nombre** **C++ moderno** sugiere utilizar esta forma:
+    
+    ```cpp
+    std::string nombre{"Firulais"};  // En lugar de
+    std::string nombre = "Firulais"; // esta
+    ```
