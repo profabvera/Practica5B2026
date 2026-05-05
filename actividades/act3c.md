@@ -15,4 +15,4 @@ Signo del Zodíaco: Libra
 
 Compile como siempre, desde el terminal manteniendo la convención que utilizamos para los nombres.
 
-
+Es importante aclarar que los datos se ingresa desde el teclado en tiempo de ejecución.
