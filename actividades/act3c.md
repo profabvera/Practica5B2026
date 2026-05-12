@@ -1,6 +1,6 @@
 ### Uso de la clase string
 
-Escriba un programa que solicite al usuario los siguientes datos y los muestre en pantalla como se muestra acontinuaicón.
+Escriba un programa que solicite al usuario los siguientes datos: Nombre, Edad, Deporte Favorito y Signo del Zodíaco y los muestre en pantalla como se muestra acontinuaicón.
 
 ```bash
 Datos personales:
