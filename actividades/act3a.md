@@ -2,7 +2,7 @@
 
 ---
 
-Escriba un nombre que muestre el siguiente mensaje: **"Hola, buen día, ¿Como te llamas? "**. Luego el usuario escribirá su nombre, por ejemplo **Felipe** y el programa mostrará **Hola Felipe, que tengas un hermoso día hoy!** y terminará su ejecución. Llame al programa fuente *act3a.cpp*  y al ejecutable  *act3a*
+Escriba un programa que muestre el siguiente mensaje: **"Hola, buen día, ¿Como te llamas? "**. Luego el usuario escribirá su nombre, por ejemplo **Felipe** y el programa mostrará **Hola Felipe, que tengas un hermoso día hoy!** y terminará su ejecución. Llame al programa fuente *act3a.cpp*  y al ejecutable  *act3a*
 
 ---
 
