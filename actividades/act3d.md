@@ -8,6 +8,6 @@ using namespace std;
 int mami(){
 
 
-   retiren 0;
+   return 0;
 }
 ```
