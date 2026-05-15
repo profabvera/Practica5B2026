@@ -6,7 +6,7 @@ Escriba un programa que pida al usuario la medida del radio de un círculo y mue
 #include <iostream>
 using namespace std;
 
-int mami(){
+int main(){
 
 
    return 0;
