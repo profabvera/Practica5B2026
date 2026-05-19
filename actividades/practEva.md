@@ -8,7 +8,7 @@ Es importante comprender que si el usuario piensa comprar dolares debe basarse e
 
 ### Practica 2
 
- Escriba un programa muestre el **número total de diagonales**  de un polígono y la **suma de sus angulos interiores**. La cantidad de lados del polígono los ingresa el usuario.
+ Escriba un programa que muestre el **número total de diagonales**  de un polígono y la **suma de sus angulos interiores**. La cantidad de lados del polígono los ingresa el usuario.
 
 La fórmula para el calculo del número total de diagonales es
 
