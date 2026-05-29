@@ -8,15 +8,15 @@ Es importante comprender que si el usuario piensa comprar dolares debe basarse e
 
 ### Practica 2
 
- Escriba un programa muestre el **número total de diagonales**  de un polígono y la **suma de sus angulos interiores**. La cantidad de lados del polígono los ingresa el usuario.
+ Escriba un programa que muestre el **número total de diagonales**  de un polígono y la **suma de sus ångulos interiores**. La cantidad de lados del polígono los ingresa el usuario.
 
-La fórmula para el calculo del número total de diagonales es
+La fórmula para el cálculo del número total de diagonales es
 
 $$
 d_n=\frac{n(n-3)}{2} 
 $$
 
-Siendo $d_n$ el número total de diagonales y $n$  el número de lados. Para la suma de los ángulos interios del plígono, la fórmula es
+Siendo $d_n$ el número total de diagonales y $n$  el número de lados. Para la suma de los ángulos interios del polígono, la fórmula es
 
 $$
 S_n=180^{\circ}(n-2)
@@ -24,7 +24,7 @@ $$
 
 Siendo $S_n$ la suma de los ángulos interiores del polígono.
 
-El programa debe contar con un encabezado que exprese de forma clara, precisa y concisa lo que hace el programa. El nombre sugerido para el codigo fuente es **datosPolig.cpp**
+El programa debe contar con un encabezado que exprese de forma clara, precisa y concisa lo que hace el programa. El nombre sugerido para el código fuente es **datosPolig.cpp**
 
 ### Practica 3
 
