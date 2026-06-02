@@ -65,7 +65,6 @@ En este caso "x", el monto, es el precio de venta, "y" es el porcentaje
 aplicado sobre esa venta y "z" la ganancia obtenida por la vendedora.
 
 Escriba un encabezado apropiado y trade de que lo que se muestra en pan
-talla sea agradable a la vista.   
+talla sea agradable a la vista. 
+El programa debe compilarse y ejecutarse sin erroes.
 ```
-
-
