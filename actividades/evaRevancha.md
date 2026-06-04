@@ -26,13 +26,15 @@ Elija dos de las tres opciones en función a sus posibilidades.
 
 #### Opcion 1
 
-La veterianaria **Macota Felíz**  lleva un registro de cada paciente que atiende. Algunos de esos datos son utilizadas para llevar un historial que le permitan realizar  un mejor diagnóstico cada vez que concurre al mismo. 
+La veterianaria **Mascota Felíz**  lleva un registro de cada paciente que atiende. Algunos de esos datos son utilizados para llevar un historial que le permita realizar  un mejor diagnóstico cada vez que la mascota concurre a la mismo. Es evidente que esa unidad
 
-```bash
+de negocio puede mejorar mucho su funcionamiento si informatiza el sistema de gestion.
+
+```cpp
 Escriba un programa en C++ que solicite al usuario los siguientes datos
 de una mascota y los muestre pon pantalla. Elija el tipo apropiado de 
-acuerdo a la naturaleza del mismo. Luego muestrolos mismo en pantalla
-precedido por el siguiente mensaje.
+acuerdo a la naturaleza del mismo. Luego muestre los mismos en pantalla
+de modo tal que se vea algo parecido a esto que se muestra aquí:
 
 Los datos de "Pelusa" son:
 
@@ -41,17 +43,17 @@ especie -------------: gato
 raza ----------------: Siberiano
 Fecha de Nacimiento -: 27 de abril de 2025 
 
-El programa debe ejecutarse y tener una aspecto agradable a la vista. In-
-cluya un encabezado donde explica lo que hace el programa.
+El programa debe ejecutarse y tener una aspecto agradable a la vista. 
+Incluya un encabezado donde se explica lo que hace el programa.
 ```
 
 ---
 
 #### Opción 2
 
-Una vendedora es muy habil en su tarea, pero no les gusta la matemática. Pero su proveedor le suele sugerir porcentajes de ganancias por cada producto vendido. En este caso les suele sugerir que aplique el 15% otras veces el  25% y en algunos casos hasta el 35 %.  Decidió pedirle a una amigo que le desarrolle un programa que solo pueda ingresar el monto del producto y el porcentaje de ganancia.
+Una vendedora es muy hábil en su tarea, pero no les gusta la matemática. Pero su proveedor le suele sugerir porcentajes de ganancias por cada producto vendido. En este caso les suele sugerir que aplique el 15% otras veces el  25% y en algunos casos hasta el 35 %.  Decidió pedirle a una amigo que le desarrolle un programa que solo pueda ingresar el monto del producto y el porcentaje de ganancia.
 
-```bash
+```cpp
 Escriba un programa que solicite al usuairo que calcule el tanto por 
 ciento de un monto ingresado por el usuario. El usuario debe ingresar
 desde el teclado estos dos datos: monto y porcentaje. El programa mostrará
@@ -62,9 +64,10 @@ porcentaje aplicado: "y"
 ganancia: "z"
 
 En este caso "x", el monto, es el precio de venta, "y" es el porcentaje
-aplicado sobre esa venta y "z" la ganancia obtenida por la vendedora.
+por ejemplo (20, 30, 15, etc.) aplicado sobre esa venta y "z" la ganancia
+obtenida por la vendedora.
 
-Escriba un encabezado apropiado y trade de que lo que se muestra en pan
-talla sea agradable a la vista. 
+Escriba un encabezado apropiado y trate de que lo que se muestra en pantalla
+sea agradable a la vista. 
 El programa debe compilarse y ejecutarse sin erroes.
 ```
