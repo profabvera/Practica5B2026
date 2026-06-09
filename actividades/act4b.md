@@ -33,6 +33,9 @@ if(condicion) {
 No olvide chequear el tipo de cambio
 
 ```html
+
+
+<script>
 // Llamamos a la API pública y gratuita
 fetch('https://dolarapi.com')
   .then(response => response.json())
@@ -40,7 +43,7 @@ fetch('https://dolarapi.com')
     // Extraemos los valores de compra y venta
     const compra = data.compra;
     const venta = data.venta;
-    
+
     // Mostramos los datos en tu página web
     document.getElementById('cotizacion-datos').innerHTML = `
       <p>Compra: $${compra}</p>
@@ -52,6 +55,6 @@ fetch('https://dolarapi.com')
     document.getElementById('cotizacion-datos').innerHTML = `<p>Error al cargar los datos.</p>`;
   });
 
+
+</script>
 ```
-
-
