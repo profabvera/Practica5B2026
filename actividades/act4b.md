@@ -35,7 +35,13 @@ No olvide chequear el tipo de cambio
 ```html
 
 
-<script>
+
+<div class="tipo-cambio">
+  <h3>Cotización del Dólar Oficial</h3>
+  <div id="cotizacion-datos">
+    <p>Cargando cotización...</p>
+
+   <script>
 // Llamamos a la API pública y gratuita
 fetch('https://dolarapi.com')
   .then(response => response.json())
@@ -55,6 +61,14 @@ fetch('https://dolarapi.com')
     document.getElementById('cotizacion-datos').innerHTML = `<p>Error al cargar los datos.</p>`;
   });
 
+   </script>
 
-</script>
+  </div>
+</div>
 ```
+
+
+
+
+
+
