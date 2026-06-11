@@ -1,0 +1,2 @@
+#### Actividad 4c
+Escribe un programa que solicite al usuario dos números enteros. Si el primer número es mayor que el segundo se despliega el mensaje "El primer número es mayor que el segundo", en cambio, si es menor el mensaje debe decir: "El primer número es menor que el segundo". Pruebe con distintos números, 12 y 8, 6 y 15, etc. ¿Qué sucede si ingresa dos números iguales? Pruébelo. Nombre del archivo fuente act4c.cpp y el ejecutable act4c. 
