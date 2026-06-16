@@ -122,17 +122,22 @@ En la primera fila de la tabla figura para *a > 90* falso, lo cual significa que
 
 ---
 
-###### La tabla de verdad para esa conjunción es
+###### La tabla con ejemplos
 
 ```bash
-+---------+-----------+-----------------------+
-| a > 90  | a <= 100  | (a > 90 && a <= 100)  |
-+---------+-----------+-----------------------+
-| Falso   | Falso     | Falso                 |
-| Falso   | Verdad    | Falso                 |
-| Verdad  | Falso     | Falso                 |
-| Verdad  | Verdad    | Verdad                |
-+---------+-----------+-----------------------+
++------+---------+-----------+--------------------+
+|  a   | a > 90  | a <= 100  | a > 90 && a <= 100 |
++------+---------+-----------+--------------------+
+|  50  | Falso   | Verdad    | Falso              |
+|  90  | Falso   | Verdad    | Falso              |
+|  91  | Verdad  | Verdad    | Verdad             |
+|  95  | Verdad  | Verdad    | Verdad             |
+| 100  | Verdad  | Verdad    | Verdad             |
+| 101  | Verdad  | Falso     | Falso              |
+| 120  | Verdad  | Falso     | Falso              |
++------+---------+-----------+--------------------+
 ```
+
+
 
 Luego agregaremos aquí el análisis conrrespondiente a la disjunción
