@@ -1,6 +1,6 @@
 # Actividad 5a - Desafío
 
-Escribe un programa que sume todos los números del 1 al 100. El archivo fuente la llamaremos **act5a.cpp** y al ejecutable **act5a** La salida del programa debe ser tan simple como esta
+Escribe un programa que sume todos los números del 1 al 100. Al archivo fuente lo llamaremos **act5a.cpp** y al ejecutable **act5a**. La salida del programa debe ser tan simple como esta
 
 ```bash
 
