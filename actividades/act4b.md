@@ -30,14 +30,4 @@ if(condicion) {
 }
 ```
 
-No olvide chequear el tipo de cambio en la siguiente página: [Banco de la Nación Argentina](https://bna.com.ar/Personas#divisas)
-
-
-
-
-
-
-
-
-
-
+No olvides chequear el tipo de cambio en la siguiente página: [Banco de la Nación Argentina](https://bna.com.ar/Personas#divisas)

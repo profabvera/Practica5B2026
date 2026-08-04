@@ -6,8 +6,6 @@ Escribe un programa que nos indique si un número ingresado por el usuario es m�
 
 ---
 
-
-
 ```cpp
 #include <iostream>
 #include <locale>
@@ -25,8 +23,6 @@ int main() {
 }
 ```
 
-
-
 Observaciones:
 
 - En el código fuente de nuestros programas no podíamos utilizar textos con acentos porque estos son propios del español y, por defecto el lenguaje C++ no los reconoce. Por eso hemos incluido la librería **locale** y en el cuerpo del programa la sentencia **setlocale(LC_AL, "Spanish")**. Es bueno incorporar ese habito para nuestro querido español. 
@@ -41,10 +37,4 @@ Observaciones:
 
 - Nuestro programa solo nos indica si el número ingresado por el usuario es múltiplo de 6, pero si no lo es no nos dice nada. Podríamos agregar un mensaje en el caso que no lo fuera. Eso se logra con el complemento del **if** que es el **else**
 
--  
-
-
-
- 
-
-
+- 
