@@ -13,9 +13,9 @@ int main() {
    cout <<" Convierte pesos " << endl;
    cout << " a dólar "<< endl;
    cout << "=================" << endl;
-   
+
    dolarTipoVend = 1420;
-   
+
    cout << "\nIngrese el monto en AR:";
    cin >> montoPeso;
    montoDolar = montoPeso / dolarTipoVend ;
