@@ -17,5 +17,3 @@ Finalmente, el programa deberá mostrar un mensaje con el siguiente formato:
 > **El número `n` tiene `cantDiv` divisores.**
 
 **Observación:** Antes de comenzar el algoritmo de búsqueda y conteo de divisores, es necesario validar que el número ingresado por el usuario cumpla con las condiciones establecidas.
-
-
