@@ -110,7 +110,7 @@ o bien
 El número 144 no es primo
 ```
 
-Estos son solo ejemplos. Lo que se pide que el programa responda por cualquier número entre uno y un millón. Llame al programa fuente  `act5da.cpp` y al ejecutable `act5da`.
+Estos son solo ejemplos. Lo que se pide que el programa responda por cualquier número entre uno y un millón, pero recuerde algo importante. Si el usuario ingresa el 1 la respuesta debiera ser: `el 1 no es primo ni compuesto`. Llame al programa fuente  `act5da.cpp` y al ejecutable `act5da`.
 
 # Aclaraciones
 
