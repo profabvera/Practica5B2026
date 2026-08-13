@@ -98,7 +98,7 @@ int cantDiv(int n){
 
 # Práctica
 
-Modifique el programa anterior para que ahora no diga si un número ingresado por el usuario es primo. Haga que el rango sea entre 1 y 1 000 000. La respuesta del programa debería parecerse a esta:
+Modifique el programa anterior para que ahora nos diga si un número ingresado por el usuario es primo. Haga que el rango sea entre 1 y 1 000 000. La respuesta del programa debería parecerse a esta:
 
 ```bash
 El número 101 es primo
@@ -111,8 +111,6 @@ El número 144 no es primo
 ```
 
 Estos son solo ejemplos. Lo que se pide que el programa responda por cualquier número entre uno y un millón. Llame al programa fuente  `act5da.cpp` y al ejecutable `act5da`.
-
-
 
 # Aclaraciones
 
