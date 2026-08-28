@@ -28,7 +28,7 @@ Escribe un programa que solicite al usuario una **clave de tres dígitos**.
 
 El programa deberá proporcionar pistas que permitan descubrir la clave. Por ejemplo:
 
-- “Tres números pares consecutivos. El último es 8.”
+- “Tres dígitos pares consecutivos. El último es 8.”
 - “Potencia de 5 comprendida entre 100 y 500.”
 
 El usuario dispondrá de **hasta 5 intentos** para ingresar la clave correcta.
