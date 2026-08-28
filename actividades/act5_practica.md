@@ -107,11 +107,11 @@ Los números pares entre `25`y `35` son:
 
 ---
 
-### Actividad 6 - Busque de múltiplo en un rango de valores
+### Actividad 6 - Busqueda de múltiplos en un rango de valores
 
 Este programa buscará e imprimirá en pantalla en forma de lista los múltiplos de un número ingresado por el usuario dentro de un rango de valores, también ingresado por el usuario.
 
-Por ejemplo, el usuario Evaristo quire que su computara muestre los múltiplos de 17 entre 1000 y 2000. El programa pedirá a evaristo estos tres números y mostrará en forma de lista los múltplos de 17 dentro de ese rango. Puede mostrar el siguiente mensaje.
+Por ejemplo, el usuario Evaristo quiere que su computara muestre los múltiplos de 17 entre 1000 y 2000. El programa pedirá a Evaristo estos tres números y mostrará en forma de lista los múltplos de 17 dentro de ese rango. Puede mostrar el siguiente mensaje.
 
 Los múltiplos de 17 entre 1000 y 2000 son: ... 
 
