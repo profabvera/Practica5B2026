@@ -121,15 +121,15 @@ No hay una única forma de hacerlo, como en la mayoría de las actividades.
 
 ### Actividad 7 - Sencillitos
 
-Escribe un programa que imprima en pantalla todos los números enteros entre 20 y 30, estos inclusive. Al lado de cada número escribe par o impar según corresponda. Cada número en una nueva linea.
+Escribe un programa que imprima en pantalla todos los números enteros entre 20 y 30, estos inclusive. Al lado de cada número escribe `par` o `impar` según corresponda. Cada número en una nueva linea.
 
 ---
 
 ### Actividad 8 - Presiona la tecla secreta
 
-Escibe un programa que siempre muestra el siguiente mensaje: "Solamente salgo si presionas la tecla secreta". 
+Escribe un programa que siempre muestra el siguiente mensaje: "Solamente salgo si presionas la tecla secreta". 
 
-La tecla secreta para salir del programa podría ser cualquier caracter válido como `z`, `@` , `q` o `Q`. 
+La tecla secreta para salir del programa podría ser cualquier caracter válido como `z`, `@` , `q` o `Q` o la que se te ocurra. 
 
 ---
 
