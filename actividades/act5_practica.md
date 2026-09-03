@@ -119,4 +119,22 @@ No hay una única forma de hacerlo, como en la mayoría de las actividades.
 
 ---
 
-### `La serie continua :-)`
+### Actividad 7 - Sencillitos
+
+Escribe un programa que imprima en pantalla todos los números enteros entre 20 y 30, estos inclusive. Al lado de cada número escribe par o impar según corresponda. Cada número en una nueva linea.
+
+---
+
+### Actividad 8 - Presiona la tecla secreta
+
+Escibe un programa que siempre muestra el siguiente mensaje: "Solamente salgo si presionas la tecla secreta". 
+
+La tecla secreta para salir del programa podría ser cualquier caracter válido como `z`, `@` , `q` o `Q`. 
+
+---
+
+### Actividad 9 - Solamente con la sentencia for
+
+Escibe un programa que sume todos los números en un rago de valores ingresado por el usuario. Por ejemplo, si el usuairio ingresa los números 12 y 17 el programa mostrara el siguiente mensaje:`La suma de 12 hasta 17 es: 87`. Has que pueda ejecutarse las veces que se quiera con una opción para salir cada vez que el programa realiza la suma.
+
+### `La serie continua 🤣`
