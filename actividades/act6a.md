@@ -16,6 +16,12 @@ Trabajaremos con:
 
 ---
 
+### Importante
+
+Las tres versiones de la actividad que se proponen lo llamaremos `act6a1.cpp`, `act6a2.cpp` y `act6a3.cpp` 
+
+---
+
 # Actividad 1 — Nuestro primer rectángulo
 
 Un rectángulo tiene las siguientes dimensiones:
@@ -105,13 +111,13 @@ Piensa especialmente:
 Compila utilizando C++20:
 
 ```bash
-g++ -std=c++20 rectangulo1.cpp -o rectangulo1
+g++ -std=c++20 act6a1.cpp -o act6a1
 ```
 
 Ejecuta:
 
 ```bash
-./rectangulo1
+./act6a1
 ```
 
 Comprueba manualmente al menos el área y el perímetro para verificar que el programa produzca resultados correctos. Si no compila usando la opción `std=c++20` significa que el compilador no está actualizado. Compila sin esa opción.
