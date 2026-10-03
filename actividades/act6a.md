@@ -45,8 +45,6 @@ $$
 P=2(b+h)
 $$
 
-
-
 ### Área
 
 $$
@@ -58,8 +56,10 @@ $$
 Para calcular la diagonal puedes aplicar el **teorema de Pitágoras**:
 
 $$
-d=\frac{-b \pm \sqrt{b^2-4ac}}{2\cdot a}
+d=\sqrt{b^2+h^2}
 $$
+
+donde `b` es la base y `h` la altura.
 
 ## Una herramienta nueva: `<cmath>`
 
