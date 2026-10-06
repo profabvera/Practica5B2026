@@ -39,7 +39,7 @@ Escribe un programa en C++ que almacene estos valores y muestre en pantalla:
 4. el área;
 5. la longitud de la diagonal.
 
-Acompaña las longitudes y el perímetro con `cm`, y el área con `cm²`. En esta primera actividad las medidas ya son conocidas y positivas; la validación de los datos ingresados se incorporará en la actividad 2.
+Acompaña las longitudes y el perímetro con `cm`, y el área con `cm²`.
 
 ## Fórmulas necesarias
 
@@ -128,23 +128,17 @@ Comprueba manualmente los resultados: el perímetro debe ser `11.8 cm`, el área
 
 ### Recomendación de compilación para las tres actividades
 
-Utiliza `-std=c++20` para indicar explícitamente el estándar de C++ con el que trabajamos. Para las actividades 2 y 3, reemplaza los nombres del archivo fuente y del ejecutable por los correspondientes.
+Utiliza `-std=c++20` para indicar el estándar con el que trabajamos. Para las actividades 2 y 3, cambia los nombres del archivo fuente y del ejecutable.
 
-Si la compilación falla, lee el mensaje de error: puede deberse a un error en el código, a un nombre de archivo incorrecto o a una opción no reconocida. **Un error de compilación no demuestra por sí solo que el compilador esté desactualizado.**
+Si la compilación falla, revisa el mensaje de error. No todo error significa que el compilador esté desactualizado. Si indica que no reconoce `-std=c++20`, consulta al docente.
 
-Si el compilador indica específicamente que no reconoce `-std=c++20`, consulta al docente. Estas actividades usan recursos básicos que también permiten trabajar con C++11:
-
-```bash
-g++ -std=c++11 act6a1.cpp -o act6a1
-```
-
-También es posible compilar sin seleccionar el estándar:
+Estas actividades también pueden compilarse sin esa opción:
 
 ```bash
 g++ act6a1.cpp -o act6a1
 ```
 
-En ese caso se utiliza el estándar predeterminado del compilador, que puede variar entre versiones. Por eso recomendamos mantener `-std=c++20` cuando esté disponible. Ejecuta el programa después de que la compilación termine sin errores.
+En ese caso se utiliza el estándar predeterminado del compilador. Mantén `-std=c++20` cuando esté disponible y ejecuta el programa después de compilar sin errores.
 
 ---
 
@@ -156,59 +150,14 @@ Modifícalo para que ahora sea el **usuario quien introduzca la base y la altura
 
 El programa deberá:
 
-1. solicitar y validar la base;
-2. solicitar y validar la altura;
+1. solicitar la base;
+2. solicitar la altura;
 3. calcular el perímetro;
 4. calcular el área;
 5. calcular la diagonal;
 6. mostrar todos los resultados.
 
-## Validar antes de calcular
-
-La base y la altura deben ser **números mayores que cero**. Valida cada medida por separado:
-
-- Si el usuario ingresa `0` o un número negativo, muestra: `La medida debe ser mayor que cero. Intente nuevamente.`
-- Si ingresa una entrada no numérica, como `hola`, muestra: `Entrada inválida. Ingrese un número, por ejemplo 3.5.`
-- Repite la solicitud de esa medida hasta obtener un valor válido.
-- Realiza los cálculos únicamente cuando ambas medidas sean válidas.
-
-Para esta actividad, ingresa un número por línea y utiliza punto para los decimales. No es necesario construir un analizador de texto: trabajaremos con la comprobación básica de lectura de `std::cin`. Esta comprobación detecta entradas como `hola`, pero no valida toda la línea: por ejemplo, puede leer el número inicial de `3abc`. Para estas pruebas ingresa números completos, sin texto añadido.
-
-### ¿Qué ocurre si se ingresan letras?
-
-Al intentar leer un número, `std::cin` puede quedar en estado de error. Para volver a leer debes restablecer su estado y descartar la entrada incorrecta.
-
-Agrega:
-
-```cpp
-#include <limits>
-```
-
-Este fragmento muestra cómo comprobar una lectura; intégralo en una estructura repetitiva para volver a solicitar la medida:
-
-```cpp
-std::cout << "Ingrese la base en cm (mayor que cero): ";
-if (!(std::cin >> base)) {
-    if (std::cin.eof() || std::cin.bad()) {
-        std::cout << "No se pueden leer más datos. Fin del programa.\n";
-        return 0; // Este fragmento se utiliza dentro de main().
-    }
-
-    std::cout << "Entrada inválida. Ingrese un número, por ejemplo 3.5.\n";
-    std::cin.clear();
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-} else if (base <= 0) {
-    std::cout << "La medida debe ser mayor que cero. Intente nuevamente.\n";
-} else {
-    // La base es válida: puedes continuar con la altura.
-}
-```
-
-- `clear()` restablece el estado de la entrada.
-- `ignore(..., '\n')` descarta lo que queda en la línea incorrecta.
-- `eof()` permite detectar que terminó la entrada; en ese caso finaliza el programa para evitar repetir indefinidamente la solicitud.
-
-Aplica el mismo criterio a la altura. Conserva la base válida si debes volver a pedir solamente la altura.
+Para probar esta versión, ingresa medidas positivas usando punto para los decimales. El tratamiento de entradas incorrectas se trabajará más adelante.
 
 ## Una condición adicional
 
@@ -220,27 +169,26 @@ Por ejemplo:
 ¿Desea calcular otro rectángulo? (s/n):
 ```
 
-Lee la respuesta en una variable de tipo `std::string` (incluye `<string>`) y compara el texto completo:
+Puedes guardar la respuesta en una variable de tipo `char`.
 
-- Si responde `s` o `S`, solicita nuevamente la base y la altura.
-- Si responde `n` o `N`, muestra `Fin del programa.` y finaliza.
-- Ante cualquier otra respuesta, como `x` o `si`, muestra `Respuesta inválida. Escriba s para continuar o n para finalizar.` y repite solamente la pregunta de continuación.
-- Si la lectura no puede continuar porque terminó la entrada, finaliza el programa.
+Si responde `s`, el programa deberá solicitar nuevamente la base y la altura.
 
-La pregunta espera una sola respuesta por línea. No interpretes una respuesta inválida como si fuera `n`.
+Si responde `n`, deberá finalizar.
+
+Durante las pruebas utiliza estas dos respuestas en minúscula.
 
 Por lo tanto, el esquema general será:
 
 ```text
 INICIO
 
-    solicitar base y altura hasta que ambas sean válidas
+    solicitar base y altura
 
     realizar cálculos
 
     mostrar resultados
 
-    preguntar si desea continuar hasta obtener s/S o n/N
+    preguntar si desea continuar
 
     si desea continuar
         repetir
@@ -275,19 +223,7 @@ Por ejemplo:
 
 También comprueba que puedas realizar varios cálculos sin volver a ejecutar manualmente el programa.
 
-Prueba las validaciones:
-
-| Entrada o situación | Comportamiento esperado |
-| --- | --- |
-| Base `0` o `-3` | Rechazarla y volver a solicitar la base |
-| Altura `0` o `-2` | Rechazarla y volver a solicitar la altura |
-| `hola` en una medida y luego `4` | Mostrar el error, recuperar la lectura y aceptar `4` |
-| `x` o `si` al preguntar si continúa | Repetir la pregunta sin iniciar otro cálculo |
-| `s` o `S` | Calcular otro rectángulo |
-| `n` o `N` | Finalizar |
-| Fin de la entrada | Finalizar sin quedar en un ciclo infinito |
-
-Verifica que nunca se calculen resultados con medidas rechazadas.
+Comprueba que `s` permita realizar otro cálculo y que `n` finalice el programa.
 
 ---
 
@@ -297,7 +233,7 @@ Observa el `main()` de la actividad anterior.
 
 Dentro de él probablemente estás realizando varias tareas diferentes:
 
-- solicitar y validar datos;
+- solicitar datos;
 - calcular el perímetro, el área y la diagonal;
 - mostrar los resultados;
 - decidir si se repite el proceso.
@@ -306,7 +242,7 @@ El programa funciona, pero vamos a intentar **separar sus responsabilidades**.
 
 ## El nuevo objetivo
 
-Guarda esta versión como `act6a3.cpp` y conserva todas las validaciones y la repetición de la actividad 2.
+Guarda esta versión como `act6a3.cpp` y conserva la entrada por teclado y la repetición de la actividad 2.
 
 Crea tres funciones con las siguientes declaraciones:
 
@@ -410,11 +346,11 @@ El nuevo esquema será aproximadamente:
 
 Dentro de `main()` deberán permanecer principalmente:
 
-- la entrada y la validación de los datos;
+- la entrada de datos;
 - la presentación de los resultados;
 - el control que permite repetir el programa.
 
-Las funciones se ocuparán de los cálculos y recibirán medidas que `main()` ya validó como positivas.
+Las funciones se ocuparán de los cálculos.
 
 Por ejemplo, para solicitar el cálculo del área:
 
@@ -492,8 +428,8 @@ Las tres actividades resolvieron esencialmente el mismo problema matemático, pe
 | Actividad | Origen de los datos | Organización de los cálculos | Repetición |
 | --- | --- | --- | --- |
 | 1 | Medidas fijas | Fórmulas dentro de `main()` | No |
-| 2 | Teclado, con validación | Fórmulas dentro de `main()` | Sí |
-| 3 | Teclado, con validación | Funciones especializadas | Sí |
+| 2 | Teclado | Fórmulas dentro de `main()` | Sí |
+| 3 | Teclado | Funciones especializadas | Sí |
 
 Responde con tus palabras:
 
