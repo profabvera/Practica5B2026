@@ -1,1 +1,1 @@
-Escribe un programa que permita hallar perímetro, el área y la diagonal de un rectángulo. El usuario ingresa la base y la altura. El programa debe ejecutarse tantas veces como el usuario quiera sin salir del mismo. Utiliza la clase CRectángulo. Llama al archivo fuente act6b.cpp
+Escribe un programa que permita hallar perímetro, el área y la diagonal de un rectángulo. El usuario ingresa la base y la altura. El programa debe ejecutarse tantas veces como el usuario quiera sin salir del mismo. Utiliza la clase CRectangulo. Llama al archivo fuente act6b.cpp
