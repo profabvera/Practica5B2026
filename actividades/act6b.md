@@ -6,7 +6,7 @@
 
 Desarrolla un programa en C++ que permita calcular el **perímetro, el área y la diagonal de un rectángulo**, utilizando la clase `CRectangulo` desarrollada y estudiada en clase.
 
-El programa deberá solicitar al usuario las medidas de la **base** y la **altura**, crear o actualizar un objeto de la clase `CRectangulo` y mostrar los resultados correspondientes. Utiliza como referencia el programa testClaseRectangulo.cpp como guía de lo que puedes hacer.
+El programa deberá solicitar al usuario las medidas de la **base** y la **altura**, crear o actualizar un objeto de la clase `CRectangulo` y mostrar los resultados correspondientes. Utiliza como referencia el programa testClaseRectangulo.cpp como guía de lo que puedes hacer. La misma está en la carpeta CLASES/CRECTANGULO de este mismo repo.
 
 Una vez presentados los resultados, el programa deberá preguntar al usuario si desea realizar un nuevo cálculo.
 
