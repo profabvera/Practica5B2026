@@ -13,7 +13,7 @@ classDiagram
         - std::string raza
         - std::string fechaDeNac
         - double peso
-        
+
         + CMascota() : 
         + CMascota(std::string nom_in, std::string esp_in, std::string raz_in, std::string fdn_in,double pes_in): 
         + CMascota(const CMascota & m):
@@ -44,9 +44,9 @@ Crea la Carpeta CMASCOTA dentro de la carpeta CLASES. Dentro de la carpeta CMASC
 
 Desarrolla una aplicación que permita comprobar el funcionamiento de la clase `CMascota`. Para ello:
 
-1. Crea un objeto utilizando el constructor predeterminado.
+1. Crea un objeto utilizando el constructor predeterminado. El constructor con valores por defecto.
 
-2. Crea otro objeto utilizando el constructor parametrizado.
+2. Crea otro objeto utilizando el constructor parametrizado. El constructor general
 
 3. Modifica algunos atributos mediante los métodos setters.
 
@@ -58,20 +58,16 @@ Desarrolla una aplicación que permita comprobar el funcionamiento de la clase `
 
 Al archivo fuente de esta apliación de prueba llámalo **testClaseCMascota.cpp**
 
+Observacions: En el punto 6 se pide utilizar el constructor de copia. Este es el que tiene la firma **CMascota(const CMascota & m)**. En concreto, mira la siguente porción de código:
+
+```cpp
+...
+CMascota m(1, "Toby", "Canino", "Boxer","11/12/2025", 23.4);
+CMascota m2=m; // m2 es una copia de m1. tienen los mismos datos
+```
+
+En el programa de prueba puedes utilizar el método **toString()**  para comprobar que ambos objetos tienen los mismos datos.
+
 ### Para reflexionar
 
 ¿Cuál es la responsabilidad de la clase `CMascota` y cómo contribuyen sus atributos y métodos a cumplirla?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
