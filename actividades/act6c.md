@@ -63,11 +63,14 @@ Observacions: En el punto 6 se pide utilizar el constructor de copia. Este es el
 ```cpp
 ...
 CMascota m(1, "Toby", "Canino", "Boxer","11/12/2025", 23.4);
+CMascota m2(m); // m2 es una copia de m1. Utiliza el constructor 
+                // CMascota(const CMascota& m); 
 CMascota m2=m; // m2 es una copia de m1. tienen los mismos datos
+               // Utiliza la sobrecarga del operador "=" por defecto
 ```
 
 En el programa de prueba puedes utilizar el método **toString()**  para comprobar que ambos objetos tienen los mismos datos.
 
 ### Para reflexionar
 
-¿Cuál es la responsabilidad de la clase `CMascota` y cómo contribuyen sus atributos y métodos a cumplirla?
+¿Cuál es la responsabilidad de la clase `CMascota` y cómo contribuyen sus atributos y métodos a cumplirla

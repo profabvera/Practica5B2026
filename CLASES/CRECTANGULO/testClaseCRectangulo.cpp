@@ -36,7 +36,7 @@ int main() {
 	
 ///=== Uso del constructor General de manera interactiva
 
-	cout << "\n\n\tIngrese la medida de la base y la" 
+	cout << "\n\n\tIngrese la medida de la base y la altura " 
 		<< "de un rectángulo"<< endl;
 	cout << "\n\t\tBase: ";
 	cin >> b;
