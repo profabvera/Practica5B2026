@@ -74,6 +74,10 @@ std::string CMascota::getFDNac() const {
 	return fechaDeNac;
 }
 
+double CMascota::getPeso() const {
+	return peso;
+}
+
 std::string CMascota::toString() const {
 	std::stringstream s;
 	s << "Datos de la Mascota " << "\n";
