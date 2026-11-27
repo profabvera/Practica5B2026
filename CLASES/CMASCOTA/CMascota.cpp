@@ -1,3 +1,9 @@
+///********* Macota Felíz **********
+/* Clase CMascota V-0.1 
+ * Programación Orientada a Objetos
+ * con C++ - Prof. Armando B. VERA */
+/// ================================
+
 #include "CMascota.h"
 #include <sstream>
 
